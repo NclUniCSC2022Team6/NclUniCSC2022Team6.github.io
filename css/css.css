@@ -1,12 +1,12 @@
 html {
 	
 	height:100%;
-    background-color: #f9f4f4;/*defining the html's background colour*/
+    background-color: #f9f4f4;
 }
 
 body {
   
-    font-family: Arial, Times New Roman; /*font for most of the page*/
+    font-family: Arial, Times New Roman; 
     margin: 0px;
     height: 100%;
 
@@ -15,11 +15,7 @@ body {
 
 
 .content{
-	
-	position: center;
-	margin: auto;
-
-	
+	margin: auto;	
 }
 
 .content img{
@@ -28,19 +24,18 @@ body {
 }
 
 .content h1 {
-	padding-top: 45px; /*defining the height of the bar*/
-    margin: auto; /*centering the main header*/
-    text-align: center;/*aligning the header to the center*/
-    width: 30%;/*defining the width of the header*/
+	padding-top: 45px; 
+    margin: auto; 
+    text-align: center;
+    width: 30%;
 	font-size: 32px;
-    clear: both; /*preveting things floating either side of the main header*/
-    position: block; /*helping to move the position of the header*/
-    padding-bottom: 0px;/*ensuring the header has no padding on bottom*/
-    border-bottom: solid;/*defining the bottom border's style, color and width*/
+    clear: both; 
+    padding-bottom: 0px;
+    border-bottom: solid;
     border-bottom-color: #E61337;
     border-bottom-width: 4px;
-    font-family: "Lucida Sans Unicode"; /*font used for the header*/
-    color: #004B83; /*blue colour used for the header*/
+    font-family: "Lucida Sans Unicode"; 
+    color: #004B83; 
 }
 
 
@@ -60,7 +55,7 @@ body {
 
 .home{
 	background-color: #93c6c6;
-	color: #004B83; /*defining the color of the header*/
+	color: #004B83; 
 	margin: 0px;
 	padding-bottom:2px;
 
@@ -72,6 +67,10 @@ body {
 	font-size: 30px;
 }
 
+.home img{
+	width: 15%
+}
+
 .features{
 	background-color: #DCDCDC;
 	color: #004B83;
@@ -81,6 +80,10 @@ body {
 .features p {
 
 	font-size: 25px;
+}
+
+.features img{
+	width: 60%
 }
 
 .images p{
@@ -105,9 +108,13 @@ body {
 
 .userguide{
 	background-color: #93c6c6;
-	color: #004B83; /*defining the color of the header*/
+	color: #004B83;
 	margin: 0px;
 	padding-bottom:1px;
+}
+
+.userguide img{
+	width: 15%
 }
 
 .guideheader{
@@ -119,14 +126,24 @@ body {
 }
 
 .userguide a{
-	width:10%;
+	
 	margin:0;
 }
+
+.git{
+	display:block;
+	margin:auto;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 65%
+}
+
+
 
 
 .downloads{
 	background-color: #DCDCDC;
-	color: #004B83; /*defining the color of the header*/
+	color: #004B83; 
 	margin: 0px;
 	padding-bottom:1px;
 	height: 100%;
@@ -138,11 +155,12 @@ body {
 
 .downloads img{
 	border: none;
+	width: 30%
 }
 
 .updatelog{
 	background-color: #DCDCDC;
-	color: #004B83; /*defining the color of the header*/
+	color: #004B83;
 	margin: 0px;
 	padding-bottom:1px;
 	height: 100%;
@@ -174,7 +192,6 @@ body {
 .banner{
 	background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../images/usb-big.jpg");
 	width: 100%;
-	margin:none;
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
